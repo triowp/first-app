@@ -1,0 +1,28 @@
+.Csgo span{
+    align-items: center;
+    display: flex;
+    border: 1px solid gray;
+    gap: 5px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 150px;
+    height: 57px;
+}
+.Csgo span:hover{
+    border: 1px solid rgb(255, 255, 255);
+}
+.title-img-CsGo img{
+    width: 160px;
+}
+.card img{
+    transition: .3s;
+}
+.card:hover .weapons{
+    transform: scale(1.3);
+}
+.card2 img{
+    transition: .3s;
+}
+.card2:hover .weapons{
+    transform: scale(1.3);
+}

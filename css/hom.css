@@ -1,0 +1,119 @@
+.hom_banner{
+    color: white;
+}
+.hom_banner h3{
+    font-size: 30px;
+    padding: 20px 0;
+}
+.hom_banner p{
+    margin: 0;
+    color: gray;
+    padding-bottom: 20px;
+}
+.hom_flex{
+    padding: 40px 0;
+    display: flex;
+    gap: 150px;
+}
+.hom_ocnova{
+    background-color:#20222A;
+    color: white;
+}
+.hom_input{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0;
+}
+.hom_input input{
+    color: white;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    background-color: none;
+    width: 300px;
+    height: 40px;
+    background: none;
+}
+.hom_hr{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+.hom_input button{
+    border: none;
+    background: none;
+    background-color: rgba(66, 81, 112, 1);
+    border-radius: 30px;
+}
+.hom_input button p{
+    padding: 0 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.homCard{
+    border-top: 1px solid gray;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.homCard1 img{
+    object-fit: cover;
+}
+.homCard1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.homCard p{
+    padding: 5px 0;
+}
+.homCard2{
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: rgba(39, 46, 59, 1);
+    width: 20%;
+    height: 100%;
+    border-radius: 20px;
+}
+.homCard22{
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: rgba(39, 46, 59, 1);
+    width: 20%;
+    height: 100%;
+    border-radius: 20px;
+}
+.home_p{
+    color: white;
+    font-size: 20px;
+}
+.home_p12{
+    color: #F4C038;
+    font-size: 20px;
+}
+.hom_p1{
+    color: gray;
+}
+.hom_p11{
+    margin: 4px 0;
+    padding: 2px;
+    color: gray;
+}
+.homCard22 button{
+    border: none;
+    margin-top: 10%;
+    border-radius: 25px;
+    background-color:  #F4C038;
+    margin: 15px 15px;
+}
+.homcardbutton p{
+    margin: 0;
+    font-size: 10px;
+}
+.homcardbutton1 p{
+    margin: 0;
+    font-size: 10px;
+}
+.homcardbutton1{
+    padding: 0px 40px;
+}

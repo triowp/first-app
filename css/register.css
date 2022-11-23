@@ -1,0 +1,26 @@
+.registreyshion{
+    background: #20222A;
+    padding: 200px 0;
+    text-align: center;
+}
+
+.registreyshion_input input{
+    color: white;
+    margin-top: 30px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    background-color: none;
+    width: 300px;
+    height: 40px;
+    background: none;
+}
+.registreyshion1 button{
+    border: none;
+    border-radius: 25px;
+    background-color:  #F4C038;
+    margin-top: 30px;
+}
+.registreyshion1 button p{
+    padding: 3px 135px;
+}

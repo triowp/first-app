@@ -1,0 +1,39 @@
+@import url("./header.css");
+@import url("./ocnova.css");
+@import url("./title.css");
+@import url("./main-rov.css");
+@import url("./contacts.css");
+@import url("./footer.css");
+@import url("./help.css");
+@import url("./hom.css");
+@import url("./register.css");
+@import url("./registr.css");
+@import url("./tup-up-your-account.css");
+@import url("./CsGo.css");
+@import url("./Dota.css");
+
+body{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+.contacts_li1{
+    color: white;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+    width: 1224px;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+}
+

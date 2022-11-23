@@ -1,0 +1,47 @@
+.contacts{
+    background-color: #272E3B;
+}
+.contacts_top{
+    align-items: center;
+    color: white;
+    display: flex;
+    gap: 20px;
+    will-change: 33%;
+    height: 100%;
+}
+.contacts-flex{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts-flex p:hover{
+    color: grey;
+}
+.contacts-bottom{
+    display: flex;
+    padding: 30px 0;
+    padding-bottom: 450px;
+    gap: 50px;
+}
+.contacts-bottom p{
+    margin: 0;
+}
+.contacts_right p:hover{
+    color: gray;
+}
+.contacts_left p{
+    line-height: 50px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.contacts_right p{
+    line-height: 50px;
+    color: rgba(255, 255, 255, 1);
+}
+.contacts div h2{
+    color: white;
+    font-size: 50px;
+    padding: 50px 0;
+}
+.contacts_li{
+    color: rgba(244, 192, 56, 1);
+}

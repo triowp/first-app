@@ -1,0 +1,54 @@
+.title{
+    background-color: #272E3B;
+}
+.conteiner h1{
+    padding-top: 48px;
+    color: rgba(255, 255, 255, 1);
+}
+.ul_title{
+    padding: 20px 0;
+    display: flex;
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 40px;
+}
+.title-img img{
+    margin-top: 8px;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+.title-img{
+    margin-left: 15px;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.boss{
+    display: flex;
+    position: relative;
+}
+.title-dota{
+    margin-left: 15px;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.title-dota img{
+    margin-top: 8px;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+.titlee{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.loading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}

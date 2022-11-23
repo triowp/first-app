@@ -1,0 +1,586 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+button,li{
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: calc(5) white;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    cursor: pointer;
+}
+.header{
+  background:  url('../assats/images/bgc.jpg')center/cover;  
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+li{
+    list-style: none;
+}
+.conteiner{
+    width: 90%;
+    margin: auto;
+}
+.logo{
+    position: relative;
+}
+.logo_left img{
+    position: absolute;
+    top: 17px;
+    left: 15px;
+}
+.logo_right img{
+    position: absolute;
+    top: 17px;
+    left: 180px;
+}
+.left_ul{
+    display: none;
+}
+.right_ul{
+    display: none;
+}
+.bars1 div{
+    width: 40px;
+    height: 5px;
+    background-color:white;
+    border-radius: 0;
+    margin: 4px 0;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+.bars2 div{
+    width: 25px;
+    height: 5px;
+    background-color:white;
+    border-radius: 0;
+    margin: 4px 0;
+    border-radius: 10px;
+}
+.bars3 div{
+    width: 40px;
+    height: 5px;
+    background-color:white;
+    border-radius: 0;
+    margin: 4px 0;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+.header_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.produrt h1{
+    color: white;
+    margin-top: 40%;
+    font-size: 40px;
+    text-align: center;
+}
+.hr div img{
+    font-size: 5px;
+    object-fit: cover;
+    width: 160px;
+    height: 60px;
+}
+.hr div{
+    display: flex;
+    justify-content: space-around;
+    display: none;
+}
+/* main */
+.card-1{
+    display: none;
+}
+.button1{
+    margin-top: 30px;
+    text-align: center;
+}
+.button1 button{
+    text-align: center;
+    border: 1px solid #FFFFFF;;
+    color: #FFFFFF;;
+    background-color: #333333;
+    width: 200px;
+    height: 40px;
+    margin: 15px 35px;
+}
+.obzas{
+    margin-top: 30px;
+    text-align: center;
+}
+.buttons ul{
+    
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+.buttons ul li button{
+    border: 1px solid grey;
+    width: 150px;
+    height: 50px;
+    background-color: #F9F9F9;
+    margin-top: -2%;
+    margin-left: -2%;
+}
+.buttons ul li{
+    border: 1px solid grey;
+    width: 150px;
+    height: 50px;
+    background-color: #F9F9F9;
+    position: relative;
+    z-index: -1;
+    
+}
+.wedding{
+    border: 1px solid grey;
+    width: 170px;
+    height: 60px;
+    background:#333333;
+    color: white;
+}
+.product{
+    width: 100%;
+    height: 100%;
+}
+.img1{
+    background: url('../assats/images/Rectangle\ 5.jpg')center/cover;
+}
+.logo-video{
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+}
+.img10 div img{
+    margin: 25% 43%;
+}
+.img2{
+    background: url('../assats/images/Rectangle\ 5\ \(1\).jpg');
+}
+.img3{
+    background: url('../assats/images/Rectangle\ 5\ \(2\).jpg');    
+}
+.img4{
+    background: url('../assats/images/Rectangle\ 5.png');    
+}
+.img5{
+    background: url('../assats/images/Rectangle\ 5\ \(1\).png');    
+}
+.img6{
+    background: url('../assats/images/Rectangle\ 5\ \(2\).png');    
+}
+.content div p{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 30px;
+}
+.bleck_content{
+    padding: 20px 10px;
+    text-align: center;
+    color: white;
+    background: url('../assats/images/Rectangle\ 6.jpg')center/cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    border: 0;
+}
+.bleck_content-1{
+    text-align: center;
+}
+.bleck_content div button{
+    border: 1px solid grey;
+    width: 150px;
+    height: 50px;
+}
+br{
+    display: none;
+}
+.content1{
+    margin-top: 30px;
+    text-align: center;
+}
+.img7{
+    background: url('../assats/images/Rectangle\ 5\ \(3\).png')center/cover;
+    width: 100%;
+    height: 270px;
+}
+.img8{
+    background: url('../assats/images/Rectangle\ 5\ \(4\).png');
+}
+.img9{
+    background: url('../assats/images/Rectangle\ 5\ \(5\).png');
+}
+.card3 div p{
+text-align: center;
+color: white;
+font-size: 25px;
+padding-top: 150px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 10px;
+}
+.card4{ 
+    margin-top: 30px;
+    text-align: center;
+    display: none;
+}
+.card4 button{
+    color: white;
+    border: 1px solid grey;
+    width: 150px;
+    height: 50px;
+    background: #333333;
+}
+.content2{
+    width: 100%;
+    display: none;
+    position: relative;
+    justify-content: space-around;
+}
+.img01{
+    background: url('../assats/images/img--hover.png') center/cover; 
+    width: 50%;
+    height: 300px;
+}
+.img02{
+    background: url('../assats/images/gallery__image.png')center/cover;
+    width: 25%;
+    height: 300px;
+}
+.img03{
+    background: url('../assats/images/gallery__image\ \(1\).png')center/cover;
+    width: 25%;
+    height: 300px;
+}
+.img04{
+    background: url('../assats/images/gallery__image\ \(2\).png')center/cover;
+    width: 25%;
+    height: 300px;
+}
+.content2 div img{
+    cursor: pointer;
+}
+.img05{
+    background: url('../assats/images/gallery__image (3).png')center/cover;
+    width: 25%;
+    height: 300px;
+}
+.img06{
+    background: url('../assats/images/Rectangle 8.png')center/cover;
+    width: 50%;
+    height: 300px;
+}
+.img10{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.img10 img{
+   margin: 0;
+   padding: 0;
+}
+.content3{
+    color: white;
+    background: url('../assats/images/Rectangle\ 9.jpg');
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 50px;
+    display: none;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.bottom div ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 23px;
+}
+.email{
+    border: 1px solid white;
+    width: 448px;
+    height: 113px;
+    margin: 14px 15px;
+
+    
+}
+.mail{
+    border: 1px solid white;
+    width: 418px;
+    height: 85px;
+    background-color: white;
+    display: flex;
+    margin: 12px 12px;
+    
+}
+.mail div input{
+    padding:13px 85px 12px 18px;
+    font-size: 9px;
+    margin: 25px 20px;
+    margin-left: 30px;
+}
+.mail div button{
+    background-color: #333333;
+    color: white;
+    padding: 13px 33px;
+    font-size: 9px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+/* footer */
+.footer{
+    background-color: #333333;
+}
+.footer_ul ul{
+    padding-top: 30px;
+}
+.footer_ul ul li{
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+.footer-img ul{
+    display: flex;
+    gap: 20px;
+}
+.footer_img ul{
+    display: flex;
+    gap: 20px;
+}
+.footer_img{
+    padding-bottom: 30px;
+}
+.footer-ul ul{
+    width: 250px;
+}
+.footer-ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-ul ul li{
+    line-height: 2;
+}
+.ul-img{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.ul-bottom ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-1024px{
+    display: none;
+}
+
+
+
+
+
+
+@media screen and (min-width:768px){
+    .logo_bars{
+        display: none;
+    }
+    .right_ul{
+        display: flex;
+        gap: 10px;
+    }
+    .right_ul ul li img{
+        width: 15px;
+        height: 15px;
+    }
+    .right_ul ul{
+        font-size:15px;
+        color: white;
+        align-items: center;
+        display: flex;
+        gap: 20px;
+    }
+    .bleck_content{
+        display: block;
+    }
+    .bottom {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media screen and (min-width: 1024px){
+    .left_ul{
+        display: flex;
+        color: white;
+    }
+    .left_ul ul{
+        align-items: center;
+        display: flex;
+        gap: 20px;
+        font-size: 15px;
+    }
+    .conteiner{
+        width: 80%;
+        margin: auto;
+    }
+    .produrt h1{
+        margin-top: 250px;
+    }
+    .hr hr{
+        margin-top: 50px;
+    }
+    .hr div img{
+        width: 130px;
+        height: 50px;
+        margin-bottom: 25px;
+    }
+    .hr div{
+        display: flex; 
+    }
+    .card4{
+        display: block;
+    }
+    .content2{
+        display: block;
+    }
+    .card-1{
+        display: flex;
+    }
+    ul{
+        padding: 0px 0px 0px 0px;
+    }
+    .buttons ul{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        gap: 0;
+    }
+    .buttons ul button{
+        width: 100px;
+        height: 40px;
+    }
+    .buttons ul li{
+        width: 100px;
+        height: 40px;
+    }
+    .buttons ul li button{
+        width: 100px;
+        height: 40px;
+
+    }
+    .bleck_content-1{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .content{
+        padding-top: 50px;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .img10 div{
+        display: flex;
+    }
+    .product{
+        width:49%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .product:hover{
+        transform: scale(1.01);
+    }
+    .img7{
+        width: 350px;
+        height: 370px;
+    }
+    .product p{
+        transition: .4;
+    }
+    .product p:hover{
+        color: #333333;
+    }
+    .card3{
+        padding-top: 50px;
+        justify-content: space-between;
+        display: flex;
+        gap: 10px; 
+    }
+    .content3{
+        display: block;
+    }
+    .footer{
+        display: none;
+    }
+    .footer-1024px{
+        display: flex;
+    }
+    ul{
+        transition: .6;
+    }
+    li:hover{
+        color: gray;
+    }
+    .line{
+        width: 1px;
+    }
+}
+@media screen and (min-width:1440px){
+    .obzas{
+        font-size: 20px;
+        margin-top: 90px;
+        margin-bottom: 80px;
+    }
+    .conteiner{
+        width: 1024px;
+        margin: auto;
+    }
+    .left_ul{
+        display: flex;
+        color: white;
+    }
+    .left_ul ul{
+        align-items: center;
+        display: flex;
+        gap: 20px;
+        font-size: 15px;
+    }
+    .content div{
+        width: 32.5%;
+        height: 32%;
+    }
+    .bottons ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+     .buttons ul button{
+        width: 170px;
+        height: 65px;
+    }
+    .buttons ul li{
+        width: 140px;
+        height: 60px;
+    }
+    .buttons ul li button{
+        width: 140px;
+        height: 60px;
+    }
+    .card4 p{
+        padding-top: 30px;
+    }
+    .ul-img{
+        gap: 30px;
+    }
+}

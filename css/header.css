@@ -1,0 +1,49 @@
+header{
+    background-color: #20222A;
+}
+.navbar_right span{
+    align-items: center;
+    display: flex;
+    border: 1px solid gray;
+    width: 80px;
+    height: 25px;
+    border-radius: 30px;
+    gap: 5px;
+}
+.navbar_1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar_21 ul a li{
+    color: white;
+}
+.navbar_21 ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar_2 ul{
+    display: flex;
+    color: white;
+    gap: 20px;
+}
+.navbar_left{
+    align-items: center;
+    display: flex;
+    gap: 60px;
+}
+.navbar_right span img{
+    margin-left:20px;
+    width: 10%;
+}
+.navbar_right span p{
+    color: white;
+    font-size: 10px;
+}
+.navbar_top{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,50 @@
+.help div h2{
+    font-size: 50px;
+    padding: 50px 0;
+}
+.help{
+    background-color: #272E3B ;
+    color: white;
+}
+.help_card{
+    background-color: rgba(32, 34, 42, 1);
+    width: 23.5%;
+    height: 100%;
+    border-radius: 20px;
+}
+.help_card1{
+    background-color: rgba(32, 34, 42, 1);
+    width: 23.5%;
+    height: 100%;
+    border-radius: 20px;
+}
+.help_card img{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.help_card div{
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.help_card1 div{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.help_card1 img{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.help_card div p{
+    color: gray;
+    font-size: 15px;
+}
+.help_card1 div p{
+    color: gray;
+    font-size: 15px;
+}
+.help_flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 270px;
+}

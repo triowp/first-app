@@ -1,0 +1,49 @@
+.registr{
+    border: 1px solid #272E3B;
+    background: #20222A;
+}
+.left_registr h3{
+    font-size: 30px;
+    color: white;
+}
+.left_registr{
+    line-height: 2;
+}
+.registr_input input{
+    color: white;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    background-color: none;
+    width: 500px;
+    height: 40px;
+    background: none;
+}
+.registr_input1 input{
+    color: white;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    background-color: none;
+    width: 500px;
+    height: 50px;
+    background: none;
+}
+.registr_project{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.left_registr button{
+    border: none;
+    margin-top: 7%;
+    border-radius: 25px;
+    background-color:  #F4C038;
+}
+.left_registr button p{
+    padding: 5px 20px;
+}

@@ -1,0 +1,97 @@
+.account{
+    font-size: 50px;
+}
+.tup_accont{
+    background-color: rgba(32, 34, 42, 1);
+}
+.account_left img{
+    display: block;
+    padding-top: 5px;
+}
+.account_left_img{
+    position: relative;
+    padding-bottom: 55px;
+}
+.account_left_img1{
+    position: absolute;
+    font-size: 20px;
+    left: 21px;
+    top: 15px;
+}
+.account_left_img2{
+    position: absolute;
+    object-fit: cover;
+}
+
+.account_stolb{
+    margin-left: 25px;
+}
+.account-banner{
+    border: 1px solid none;
+    width: 53px;
+    height: 55px;
+    position: relative;
+}
+.account-banner_img{
+    position: absolute;
+}
+.account-banner_h3{
+    color: #F4C038;
+    font-size: 30px;
+    margin-left: 20px;
+    padding-top: 13px; 
+}
+.account_right1{
+    color: #F4C038;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.account_right2{
+    display: flex;
+    gap: 40px;
+    padding: 20px 0;
+}
+.account_right5{
+    display: flex;
+    gap: 40px;
+}
+.account_input input{
+    border: 1px solid grey;
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+    background: none;
+}
+.account_button button{
+    color: white;
+    opacity: .8;
+    border: 1px solid grey;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background: rgba(66, 81, 112, 1);
+    position: relative;
+}
+.account_left_flex{
+    padding: 50px 0;
+    display: flex;
+    gap: 100px;
+}
+.account_right_h2{
+    color: white;
+    font-size: 30px;
+}
+.account_h2{
+    padding-top: 10px;
+}
+.account_h2 h2{
+    padding-top: 50px;
+    color: white;
+    opacity: .6;
+}
+.account_h2 h2:hover{
+    opacity: 1;
+}
+
+
+                                             
